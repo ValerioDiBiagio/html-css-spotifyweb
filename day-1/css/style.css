@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+
+/* common */
+
+
 body {
     font-family: "Montserrat", serif;
 }
@@ -38,6 +42,8 @@ img {
     max-width: 100%;
     display: block;
 }
+
+/* main */
 
 .boxleft {
     
@@ -100,7 +106,14 @@ header {
 }
 
 
+/* responsive layout */
+
+/* desktop */
+
+
 @media screen and (min-width: 992px) {
+
+    /* main */
 
     .boxleft {
         
