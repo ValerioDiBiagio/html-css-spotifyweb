@@ -35,7 +35,7 @@ img {
 }
 
 .boxleft {
-    height: 590px;
+    
     width: 55px;
     background-color: black;
 }
@@ -60,11 +60,15 @@ span {
     display: none;
 }
 
+.playlist {
+    display: none;
+}
+
 
 @media screen and (min-width: 992px) {
 
     .boxleft {
-        height: 590px;
+        
         width: 230px;
         background-color: black;
     }
@@ -82,20 +86,45 @@ span {
         display: inline;
         color: #5c5c5c;
         align-items: center;
+        padding-left: 10px;
     
     }
 
     li {
         display: flex;
         align-items: center;
+        color: #5c5c5c;
     }
-
-
-
+    
     ul img {
         
         width: 20%;
         display: inline-block;
         
     }
+
+    h4 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .icon {
+        color: #5c5c5c;
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
+
+    .text {
+        font-size: 16px;
+        vertical-align: middle;
+        padding-left: 0px;
+    }
+
+    .playlist {
+        display: inline;
+    }
+
+    
 }
