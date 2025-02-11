@@ -8,4 +8,15 @@
 
 body {
     font-family: "Montserrat", serif;
+    height: 100vh;
+    background-color: #151922;
+}
+
+main {
+    height: calc(100% - 90px);
+}
+
+footer {
+    height: 90px;
+    background-color: #282828;
 }
