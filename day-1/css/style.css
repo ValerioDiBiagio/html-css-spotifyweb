@@ -34,7 +34,6 @@ footer {
 
 .container {
     display: flex;
-    justify-content: space-between;
    
 }
 
@@ -75,23 +74,6 @@ span {
     display: none;
 }
 
-.user {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.box1 {
-    display: flex;
-    flex-direction: column;
-}
-
-.box2 {
-    display: flex;
-    flex-direction: column;
-
-}
-
 hr {
     display: none;
 }
@@ -99,10 +81,24 @@ hr {
 .photo {
     filter: brightness(50%);
 }
+
 header {
     height: 90px;
     max-width: 100%;
     background-color: #10151b;
+}
+
+.me {
+    width: 85%;
+    padding-left: 4px;
+    filter: brightness(100%);
+}
+
+.utente {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: #666666;
 }
 
 
@@ -175,7 +171,7 @@ header {
     }
 
     hr {
-        margin: 10px;
+        display: block;
     }
 
     .nameplaylist {
@@ -184,6 +180,10 @@ header {
 
     .profile {
         color: #ffffff;
+    }
+
+    .name {
+        padding-top: 10px;
     }
 
     
