@@ -12,6 +12,7 @@
 
 body {
     font-family: "Montserrat", serif;
+    height: 100vh;
 }
 
 a {
@@ -19,12 +20,8 @@ a {
 }
 
 .bcontainer {
-    height: 100vh;
-    background-color: #151922;
-}
-
-main {
-   height: calc(100% - 90px);
+    height: calc(100% - 90px);
+    display: flex;
 }
 
 footer {
@@ -32,10 +29,7 @@ footer {
     background-color: #282828;
 }
 
-.container {
-    display: flex;
-   
-}
+
 
 img {
     max-width: 100%;
@@ -48,15 +42,20 @@ img {
     flex-shrink:  0;
     width: 55px;
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
-.boxright {
+main {
     flex-grow: 1;
+    background-color: #151922;
 }
 
-nav {
-    padding: 13px;
+.top {
+    height: 90px;
+    background-color: aqua;
 }
+
 
 .mobile {
     padding-bottom: 25px;
