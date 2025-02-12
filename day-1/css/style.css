@@ -45,9 +45,13 @@ img {
 /* main */
 
 .boxleft {
-    
+    flex-shrink:  0;
     width: 55px;
     background-color: black;
+}
+
+.boxright {
+    flex-grow: 1;
 }
 
 nav {
@@ -84,7 +88,6 @@ hr {
 
 header {
     height: 90px;
-    max-width: 100%;
     background-color: #10151b;
 }
 
