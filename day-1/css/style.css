@@ -39,12 +39,22 @@ img {
 /* main */
 
 .boxleft {
+    padding: 10px 0 10px;
     flex-shrink:  0;
     width: 55px;
     background-color: black;
     display: flex;
     flex-direction: column;
 }
+
+.logo {
+    padding: 0px 11px 20px;
+}
+
+.nav {
+    padding: 0px 10px;
+}
+
 
 main {
     flex-grow: 1;
@@ -56,13 +66,9 @@ main {
     background-color: aqua;
 }
 
-
-.mobile {
-    padding-bottom: 25px;
-}
-
 li {
     padding-bottom: 10px;
+    align-items: center;
 }
 
 .desktop {
@@ -97,11 +103,25 @@ header {
 }
 
 .utente {
+    
     height: 30px;
     width: 30px;
     border-radius: 50px;
     background-color: #666666;
 }
+
+.name {
+    padding-left: 4px;
+}
+
+.user {
+    margin-top: auto;
+}
+
+.download {
+    padding: 0px 5px;
+}
+
 
 
 /* responsive layout */
@@ -114,7 +134,7 @@ header {
     /* main */
 
     .boxleft {
-        
+        padding: 20px 0px 5px;
         width: 230px;
         background-color: black;
     }
@@ -126,6 +146,7 @@ header {
     .desktop {
         display: block;
         padding-bottom: 35px;
+        padding: 0px 70px 25px 20px;
     }
 
     span {
@@ -139,7 +160,7 @@ header {
     li {
         display: flex;
         align-items: center;
-        color: #5c5c5c;
+        color: #5c5c5c
     }
     
     ul img {
@@ -157,9 +178,12 @@ header {
     }
 
     .icon {
-        color: #5c5c5c;
-        font-size: 50px;
+        font-size: 30px;
         padding-bottom: 15px;
+    }
+
+    .icon a {
+        color: #5c5c5c;
     }
 
     .text {
@@ -169,7 +193,8 @@ header {
     }
 
     .playlist {
-        display: inline;
+        padding-left: 10px;
+        display: block;
     }
 
     hr {
@@ -184,8 +209,13 @@ header {
         color: #ffffff;
     }
 
+    .download {
+        padding-left: 0px;
+    }
+
     .name {
         padding-top: 10px;
+        padding-left: 0px;
     }
 
     
