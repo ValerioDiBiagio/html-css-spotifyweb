@@ -162,7 +162,33 @@ header {
     font-weight: bold;
     justify-content: center;
     padding: 0px 30px;
-    
+}
+
+h2 {
+    margin-top: 45px;
+    padding-bottom: 35px;
+    color: #ffffff;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    width: 210px;
+    text-align: center;
+}
+
+.title {
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-family: 11px;
+    color: #7d7f84;
 }
 
 
@@ -171,7 +197,7 @@ header {
 /* desktop */
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 576px) {
 
     /* main */
 
@@ -259,3 +285,7 @@ header {
 
     
 }
+
+/* tablet */
+
+
