@@ -1,0 +1,249 @@
+/* reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* common */
+
+
+body {
+    font-family: "Montserrat", serif;
+    height: 100vh;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.bcontainer {
+    height: calc(100% - 90px);
+    display: flex;
+}
+
+footer {
+    height: 90px;
+    background-color: #282828;
+}
+
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* sidebar*/
+
+.boxleft {
+    padding: 10px 0 10px;
+    flex-shrink:  0;
+    width: 55px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    padding: 0px 11px 20px;
+}
+
+.nav {
+    padding: 0px 10px;
+}
+
+
+main {
+    flex-grow: 1;
+    background-color: #151922;
+}
+
+.top {
+    height: 90px;
+    background-color: aqua;
+}
+
+li {
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.desktop {
+    display: none;
+}
+
+span {
+    display: none;
+}
+
+.playlist {
+    display: none;
+}
+
+hr {
+    display: none;
+}
+
+.photo {
+    filter: brightness(50%);
+}
+
+header {
+    height: 90px;
+    background-color: #10151b;
+}
+
+.me {
+    width: 85%;
+    padding-left: 4px;
+    filter: brightness(100%);
+}
+
+.utente {
+    
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: #666666;
+}
+
+.name {
+    padding-left: 4px;
+}
+
+.user {
+    margin-top: auto;
+}
+
+.download {
+    padding: 0px 5px;
+}
+
+/* main */
+
+.banner {
+    display: flex;
+    height: 90px;
+    background-color: black;
+    justify-content: end;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+    
+    
+}
+
+.upgrade{
+    color: #ffffff;
+}
+
+
+
+/* responsive layout */
+
+/* desktop */
+
+
+@media screen and (min-width: 992px) {
+
+    /* main */
+
+    .boxleft {
+        padding: 20px 0px 5px;
+        width: 230px;
+        background-color: black;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+        padding-bottom: 35px;
+        padding: 0px 70px 25px 20px;
+    }
+
+    span {
+        display: inline;
+        color: #5c5c5c;
+        align-items: center;
+        padding-left: 10px;
+    
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        color: #5c5c5c
+    }
+    
+    ul img {
+        
+        width: 20%;
+        display: inline-block;
+        
+    }
+
+    h4 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .icon {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .icon a {
+        color: #5c5c5c;
+    }
+
+    .text {
+        font-size: 16px;
+        vertical-align: middle;
+        padding-left: 0px;
+    }
+
+    .playlist {
+        padding-left: 10px;
+        display: block;
+    }
+
+    hr {
+        display: block;
+    }
+
+    .nameplaylist {
+        padding-bottom: 55px;
+    }
+
+    .profile {
+        color: #ffffff;
+    }
+
+    .download {
+        padding-left: 0px;
+    }
+
+    .name {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    
+}
