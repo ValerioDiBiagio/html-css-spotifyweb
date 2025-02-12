@@ -83,6 +83,26 @@ li {
     align-items: center;
 }
 
+.home {
+    border-left: 2px solid #adff2f;
+}
+
+.evidence {
+    color: #7d7f84;
+    border-bottom: 2px solid #adff2f;
+    padding-bottom: 5px;
+    border-spacing: 50px;
+}
+
+.option {
+    color: #7d7f84;
+}
+
+/* .option:hover {
+    border-bottom: 2px solid #adff2f;
+    padding-bottom: 5px;
+} */
+
 .desktop {
     display: none;
 }
@@ -134,21 +154,26 @@ header {
     padding: 0px 5px;
 }
 
-/* main */
+/* barra di navigazione */
 
 .banner {
     display: flex;
     height: 90px;
-    background-color: black;
+    background-color: #080b12;
     justify-content: end;
     align-items: center;
     padding-right: 15px;
     margin-bottom: 20px;
-    position: sticky;
+    position: fixed;
     top: 0px;
-    left: 0px;
-    z-index: 3;
+    left: 55px;
+    right: 0px;
+    z-index: 2;
+    opacity: 95%;
 }
+
+/* main */
+
 
 .btn {
     text-transform: uppercase;
@@ -172,6 +197,7 @@ header {
     font-weight: bold;
     justify-content: center;
     padding: 0px 30px;
+    margin-top: 110px;
 }
 
 h2 {
@@ -181,7 +207,7 @@ h2 {
     color: #ffffff;
 }
 
-/* griglia */
+/* grids */
 
 .row {
     display: flex;
@@ -217,18 +243,57 @@ h5 {
     color: #5d6166;
     padding-left: 10px;
     padding-bottom: 20px;
+    font-size: 10px;
 }
 
+.circle {
+    height: 180px;
+    width: 150px;
+    border-radius: 90px;
+    
+    
+}
+
+.column-circle {
+    width: 160px;
+    padding-left: 10px;
+}
+
+
+.title-circle {
+    color: #ffffff;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+}
+
+.title-circle-einaudi {
+    color: #ffffff;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 35px;
+}
 
 
 /* responsive layout */
 
-/* desktop */
+/* smobile */
 
 
 @media screen and (min-width: 576px) {
 
     /* main */
+
+    .banner {
+        
+        position: fixed;
+        top: 0px;
+        left: 230px;
+        right: 0px;
+        z-index: 2;
+        opacity: 95%;
+    }
 
     .boxleft {
         padding: 20px 0px 5px;
