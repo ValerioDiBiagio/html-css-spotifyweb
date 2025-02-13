@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- /font -->
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- /fontawsome -->
+    <!-- collegamento css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /collegamento css -->
+</head>
+<body> 
+    <!-- corpo della pagina -->
+    <div class="bcontainer">
+        <div class="boxleft">
+            <!-- barra di navigazione -->
+             <div><a href="#"><img class="logo mobile" src="../img/logo-small.svg" alt="logo-spotify"></a></div>
+             <div><a href="#"><img class="logo desktop" src="../img/logo.svg" alt="logo-spotify-large"></a></div>
+             <ul class="nav">
+                <li><a href="#"><img class="photo home" src="../img/home.svg" alt="home"><span>Home</span></a></li>
+                <li><a href="#"><img class="photo" src="../img/search.svg" alt="search"> <span>Cerca</span></a></li>
+                <li><a href="#"><img class="photo" src="../img/libreria.svg" alt="your-library"> <span>La tua libreria</span></a></li>
+            </ul>
+            
+            <section class="playlist">
+                <h4>Playlists</h4>
+                <div class="icon"><a href="#"><i class="fa-solid fa-square-plus"></i> <span class="text"> Crea Playlist</span></a></div>
+                <ul class="nameplaylist">
+                    <li>Nome Playlist</li>
+                    <li>Nome Playlist</li>
+                </ul>
+            </section>
+            <ul class="user nav">
+                <li><a href="#"><img class="photo download" src="../img/download.svg" alt="download"><span>Installa App</span></a></li>
+                <hr>
+                <li class="name"><div class="utente"><a href="#"><img class="photo me" src="/img/profile.svg" alt="user"></a></div><span class="profile">Valerio Di Biagio</span></li>
+            </ul>
+        </div>
+            <!-- /barra di navigazione -->
+
+        <main>
+            <div class="banner">
+                <a class="btn upgrade" href="#">Effettua Upgrade</a>
+            </div>
+
+            <ul class="main-nav">
+                <li><a href="#" class="evidence">In Evidenza</a></li>
+                <li><a href="#" class="option">Podcast</a></li>
+                <li><a href="#" class="option">Classifiche</a></li>
+                <li><a href="#" class="option">Generi e Mood</a></li>
+                <li><a href="#" class="option">Nuove Uscite</a></li>
+                <li><a href="#" class="option">Scopri</a></li>
+            </ul>
+          <!-- grids -->
+             <h2>Recently Played</h2>
+                <div class="row">
+                    <div class="column">
+                        <div class="album">
+                            <img src="../img/metal_lifting.jpg" alt="Havey Metal">
+                            <div class="play">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </div>
+                        </div>
+                        <div class="title"><h4>Heavy Metal</h4></div>
+                        <div class="subtitle">Subtitle</div>
+                    </div>
+                    <div class="column">
+                        <div class="album">
+                            <img src="../img/stranger.jpeg" alt="Stranger Things">
+                            <div class="play">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </div>
+                        </div>
+                        <div class="title"><h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4></div>
+                        <div class="subtitle">Kyle Dixon e Michael Stein</div>
+                    </div>
+                    <div class="column">
+                        <div class="album">
+                            <img src="../img/aquietplace.jpeg" alt="A quiet place">
+                            <div class="play">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </div>
+                        </div>
+                        <div class="title"><h4>A quiet place</h4></div>
+                        <div class="subtitle">Subtitle</div>
+                
+                    </div>
+                    <div class="column">
+                        <div class="album">
+                            <img src="../img/split.jpeg" alt="Split">
+                            <div class="play">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </div>
+                        </div>
+                        <div class="title"><h4>Split</h4></div>
+                        <div class="subtitle">Subtitle</div>
+                    </div>
+                    <div class="column">
+                        <div class="album">
+                            <img src="../img/cure.jpeg" alt="Cure">
+                            <div class="play">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </div>
+                        </div>
+                        <div class="title"><h4>A cure for wellness</h4></div>
+                        <div class="subtitle">Subtitle</div>
+                    </div>
+                    <div class="column">
+                        <div class="album">
+                            <img src="../img/sinister.jpeg" alt="Sinister">
+                            <div class="play">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </div>
+                        </div>
+                        <div class="title"><h4>Sinister</h4></div>
+                        <div class="subtitle">Subtitle</div>
+                    </div>
+                </div>
+
+                <section>
+                    <h2 class="suggestions">Creato per Valerio Di Biagio</h2>
+                    <h5>Più ascolti, più accurati saranno i suggerimenti.</h5>
+                <div class="row">
+                    <div class="column">
+                        <div><img src="../img/radar.jpeg" alt="Release Radar"></div>
+                        <div class="title"><h4>Release Radar</h4></div> 
+                    </div> 
+                    <div class="column">
+                        <img src="../img/mixdaily.jpeg" alt="Il tuo daily mix">
+                        <div class="title"><h4>Daily Mix 1</h4></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2 class="suggestions">Artisti più popolari</h2>
+                <h5>Più ascolti, più accurati saranno i suggerimenti.</h5>
+            <div class="row">
+                <div class="column-circle">
+                    <img class="circle" src="../img/youg.jpeg" alt="Lana Del Rey">
+                    <div class="title-circle"><h4>Lana Del Rey</h4></div> 
+                </div> 
+                <div class="column">
+                    <img class="circle" src="../img/einaudi.jpeg" alt="Einaudi">
+                    <div class="title-circle-einaudi"><h4>Einaudi</h4></div> 
+                </div>
+            </div>   
+            </section>
+          <!-- /grids -->
+        </main>
+    </div>
+    <!-- /corpo della pagina -->
+   
+    <!-- piede della pagina --> 
+    <footer>
+        <div class="song">
+            
+
+
+        </div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+
+
+
+
+    </footer>
+
+    <!-- /piede della pagina -->
+</body>
+</html>
