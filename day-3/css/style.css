@@ -305,14 +305,11 @@ footer {
 .song {
     display: flex;
     align-items: center;
-    width: 130px;
+    width: 150px;
     gap: 10px;
-    
-
 }
 
 .description {
-    
     width: 50%;
     font-size: 10px;
     font-weight: bold;
@@ -329,9 +326,41 @@ footer {
 }
 
 .track {
-    height: 55px;
+    display: flex;
+    flex-wrap: wrap;
     width: 190px;
-    background-color: #adff2f;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.fa-circle-play {
+    font-size: 35px;
+}
+
+.bar {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 5px;
+    width: 130px;
+    background-color: #7b7b7b;
+}
+
+
+.timebar {
+    padding-top: 10px;
+    display: flex;
+    font-size: 10px;
+    width: 190px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.time {
+    height: 5px;
+    width: 40px;
+    background-color: #ffffff;
 }
 
 .volum {
@@ -447,6 +476,7 @@ footer {
         display: flex;
         flex-direction: row;
     }
+
     
 }
 
@@ -458,7 +488,6 @@ footer {
         gap: 10px;
         width: calc((100% - 60px) / 6);
     }
-
 
 }
 
