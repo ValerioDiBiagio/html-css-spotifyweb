@@ -304,14 +304,28 @@ footer {
 
 .song {
     display: flex;
-    width: 80px;
-    /* background-color: #adff2f; */
+    align-items: center;
+    width: 130px;
+    gap: 10px;
+    
+
+}
+
+.description {
+    
+    width: 50%;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 5px;
+    color: #fdfdfd;
 }
 
 .double {
-    height: 40px;
-    width: 20px;
-    background-color: #adff2f;
+    color: #7b7b7b;;
+}
+
+.songname {
+    color: #7b7b7b;
 }
 
 .track {
@@ -324,26 +338,6 @@ footer {
     height: 20px;
     width: 150px;
     background-color: #adff2f;
-}
-
-.artist {
-    width: 50%;
-}
-
-.description {
-    width: 50%;
-    font-size: 10px;
-    font-weight: bold;
-    padding-left: 5px;
-    color: #fdfdfd;
-}
-
-.songname {
-    font-size: 8px;
-    font-weight: bold;
-    padding-left: 3px;
-    color: #7b7b7b;
-    text-align: start;
 }
 
 
@@ -447,6 +441,12 @@ footer {
         gap: 10px;
         width: calc((100% - 40px) / 4);
     }
+
+    .double {
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+    }
     
 }
 
@@ -458,6 +458,7 @@ footer {
         gap: 10px;
         width: calc((100% - 60px) / 6);
     }
+
 
 }
 
