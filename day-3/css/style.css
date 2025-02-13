@@ -25,6 +25,12 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #ffffff;
+}
+span:hover {
+    color: #ffffff;
+}
 .bcontainer {
     height: calc(100% - 90px);
     display: flex;
@@ -84,24 +90,10 @@ li {
 }
 
 .home {
+    padding-right: 5px;
+    margin-left: -5px;
     border-left: 2px solid #adff2f;
 }
-
-.evidence {
-    color: #7d7f84;
-    border-bottom: 2px solid #adff2f;
-    padding-bottom: 5px;
-    border-spacing: 50px;
-}
-
-.option {
-    color: #7d7f84;
-}
-
-/* .option:hover {
-    border-bottom: 2px solid #adff2f;
-    padding-bottom: 5px;
-} */
 
 .desktop {
     display: none;
@@ -109,6 +101,18 @@ li {
 
 span {
     display: none;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.nameplaylist li a {
+    color: #717171;
+}
+
+.nameplaylist li a:hover {
+    color: #ffffff;
 }
 
 .playlist {
@@ -167,6 +171,28 @@ header {
     left: 0px;
     z-index: 2;
     opacity: 95%;
+}
+
+.evidence {
+    color: #7d7f84;
+}
+
+.option {
+    color: #7d7f84;
+}
+
+.evidence {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.evidence:after {
+    content: '';
+    height: 3px;
+    background-color: #50c630;
+    display: block;
+    width: 30px;
 }
 
 /* main */
@@ -300,6 +326,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    gap: 20px;
 }
 
 .song {
@@ -307,6 +334,7 @@ footer {
     align-items: center;
     width: 150px;
     gap: 10px;
+    
 }
 
 .description {
@@ -318,11 +346,21 @@ footer {
 }
 
 .double {
-    color: #7b7b7b;;
+    color: #7b7b7b;
+    cursor: pointer;
+}
+
+.fa-regular:hover {
+    color: #ffffff;
 }
 
 .songname {
     color: #7b7b7b;
+}
+
+.songname:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .track {
@@ -333,6 +371,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     color: #ffffff;
+    cursor: pointer;
+    
 }
 
 .fa-circle-play {
@@ -363,11 +403,19 @@ footer {
     background-color: #ffffff;
 }
 
+.time:hover {
+    height: 5px;
+    width: 40px;
+    background-color: #50c630;
+    
+}
+
 .volum {
     display: flex;
     height: 20px;
     width: 150px;
     gap: 10px;
+    cursor: pointer;
 }
 
 .vbar {
@@ -387,6 +435,11 @@ footer {
     background-color: #ffffff;
 }
 
+.vbar2:hover {
+    height: 5px;
+    width: 20px;
+    background-color: #50c630;
+}
 
 /* responsive layout */
 
@@ -494,8 +547,6 @@ footer {
         display: flex;
         flex-direction: row;
     }
-
-    
 }
 
 /* desktop */
@@ -506,6 +557,5 @@ footer {
         gap: 10px;
         width: calc((100% - 60px) / 6);
     }
-
 }
 
