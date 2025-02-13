@@ -43,8 +43,6 @@ footer {
     background-color: #282828;
 }
 
-
-
 img {
     max-width: 100%;
     display: block;
@@ -69,8 +67,17 @@ img {
     padding: 0px 11px 20px;
 }
 
-.nav {
-    padding: 0px 10px;
+.home {
+    padding: 0 10px;
+    border-left: 4px solid #adff2f;
+}
+
+.search {
+    padding: 0 10px;
+}
+
+.library {
+    padding: 0 10px;
 }
 
 
@@ -81,7 +88,6 @@ main {
 
 .top {
     height: 90px;
-    background-color: aqua;
 }
 
 li {
@@ -89,11 +95,6 @@ li {
     align-items: center;
 }
 
-.home {
-    padding-right: 5px;
-    margin-left: -5px;
-    border-left: 2px solid #adff2f;
-}
 
 .desktop {
     display: none;
@@ -139,7 +140,7 @@ header {
 }
 
 .utente {
-    
+    margin-left: 10px;
     height: 30px;
     width: 30px;
     border-radius: 50px;
@@ -155,7 +156,7 @@ header {
 }
 
 .download {
-    padding: 0px 5px;
+    padding: 0px 10px;
 }
 
 /* barra di navigazione */
@@ -410,7 +411,7 @@ footer {
     
 }
 
-.volum {
+.volume {
     display: flex;
     height: 20px;
     width: 150px;
