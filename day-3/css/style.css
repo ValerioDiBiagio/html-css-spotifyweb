@@ -299,11 +299,53 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 .song {
-    
+    display: flex;
+    width: 80px;
+    /* background-color: #adff2f; */
 }
+
+.double {
+    height: 40px;
+    width: 20px;
+    background-color: #adff2f;
+}
+
+.track {
+    height: 55px;
+    width: 190px;
+    background-color: #adff2f;
+}
+
+.volum {
+    height: 20px;
+    width: 150px;
+    background-color: #adff2f;
+}
+
+.artist {
+    width: 50%;
+}
+
+.description {
+    width: 50%;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 5px;
+    color: #fdfdfd;
+}
+
+.songname {
+    font-size: 8px;
+    font-weight: bold;
+    padding-left: 3px;
+    color: #7b7b7b;
+    text-align: start;
+}
+
 
 /* responsive layout */
 
