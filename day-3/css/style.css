@@ -364,9 +364,27 @@ footer {
 }
 
 .volum {
+    display: flex;
     height: 20px;
     width: 150px;
-    background-color: #adff2f;
+    gap: 10px;
+}
+
+.vbar {
+    height: 5px;
+    width: 60px;
+    background-color: #7b7b7b;
+    margin-top: 7px;
+}
+
+.fa-solid {
+    color: #ffffff;
+}
+
+.vbar2 {
+    height: 5px;
+    width: 20px;
+    background-color: #ffffff;
 }
 
 
