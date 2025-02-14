@@ -28,9 +28,11 @@ a {
 a:hover {
     color: #ffffff;
 }
+
 span:hover {
     color: #ffffff;
-}
+} 
+
 .bcontainer {
     height: calc(100% - 90px);
     display: flex;
@@ -128,6 +130,10 @@ hr {
     filter: brightness(50%);
 }
 
+.photo:hover {
+    filter: brightness(100%);
+}
+
 header {
     height: 90px;
     background-color: #10151b;
@@ -162,6 +168,7 @@ header {
 /* barra di navigazione */
 
 .banner {
+    height: 90px;
     display: flex;
     background-color: #080b12;
     justify-content: end;
@@ -172,6 +179,7 @@ header {
     left: 0px;
     z-index: 2;
     opacity: 95%;
+    
 }
 
 .evidence {
@@ -207,6 +215,10 @@ header {
     padding: 15px 40px;
     border: 2px solid white;
     border-radius: 30px;
+}
+
+.btn:hover {
+   padding: 20px 45px;
 }
 
 .upgrade{
@@ -380,6 +392,10 @@ footer {
     font-size: 35px;
 }
 
+.fa-circle-play:hover {
+    font-size: 40px;
+}
+
 .bar {
     margin-right: 10px;
     margin-left: 10px;
@@ -514,6 +530,8 @@ footer {
 
     hr {
         display: block;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .nameplaylist {
