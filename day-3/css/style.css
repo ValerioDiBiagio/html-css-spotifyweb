@@ -36,7 +36,7 @@ span:hover {
 .bcontainer {
     height: calc(100% - 90px);
     display: flex;
-    overflow-y: auto;
+    
     background-color: #151922;
 }
 
@@ -84,6 +84,7 @@ img {
 
 
 main {
+    overflow-y: auto;
     flex-grow: 1;
     background-color: #151922;
 }
